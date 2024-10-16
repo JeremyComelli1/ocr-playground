@@ -1,12 +1,8 @@
-from PIL import Image
-import pytesseract
+#!/usr/bin/env python3
+import read_disks_serials  # Import the other script
+import json
 
-# Load the image from file
+# Call a function from read_disk_serials (assuming it has one)
 
-image = Image.open('images/WhatsApp Image 2024-09-27 at 13.27.10.jpeg')
-
-# Use Tesseract to extract text
-text = pytesseract.image_to_string(image)
-
-# Print the extracted text
-print(text)
+file = open('output.txt', 'w')
+file.write(json.dumps(read_disks_serials.read_dump('images/','unreadable/')))
