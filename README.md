@@ -1,4 +1,4 @@
-# Simple script collection for OCR
+# Simple script for OCR
 Currently uses tesseract.
 
 ## Installation
