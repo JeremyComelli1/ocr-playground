@@ -14,6 +14,7 @@ python3 -m venv -r requirements.txt
 ## Usage
 Populate the "images" folder with images you want to process.
 ```
+source .venv/bin/activate
 chmod +x main.py
 ./main.py
 ```
