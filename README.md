@@ -5,7 +5,7 @@ Currently uses tesseract.
 First install Tesseract
 ```
 sudo apt update
-sudo apt install tesseract
+sudo apt install tesseract-ocr
 ```
 Then create a venv using python 3.11.2
 ```
